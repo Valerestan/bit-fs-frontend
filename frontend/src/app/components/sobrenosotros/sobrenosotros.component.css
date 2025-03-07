@@ -1,0 +1,57 @@
+.img-nosotros{
+width: 100%;
+}
+.subtitulo{
+font-size: 25px;
+color: #323232;
+margin-top: 220px;
+margin-left: 470px;
+
+    /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+.titulo{
+  font-size: 80px;
+  letter-spacing: 5px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: #323232ae;
+
+     /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contenedor{
+    width: 500px ;
+    height: 400px ;
+    text-align: justify;
+    margin-left: 510px;
+    margin-top: 90px;
+     color: #323232ae;
+    /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.creadora{
+margin-top: 0px;
+margin-left: 510px;
+color: #323232;
+    /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

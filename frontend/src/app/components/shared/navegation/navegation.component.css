@@ -1,4 +1,67 @@
 nav {
   display: flex;
   gap: 2rem;
+  background-color: rgba(120, 120, 120, 0.068);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  height: 80px;
+  position: fixed ;
+  margin-top: 40px;
+}
+
+.logo {
+  width: 90px;
+  height: 50px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+.inicio,
+.productos,
+.tendecias,
+.colleciones,
+.sobrenosotros {
+  margin: 30px;
+  text-decoration: none;
+  color: rgba(211, 209, 209, 0.874);
+
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inicio {
+  margin-left: 190px;
+}
+
+.productos {
+  margin-left: -10px;
+}
+
+.tendecias {
+  margin-left: -10px;
+}
+
+.colleciones {
+  margin-left: -10px;
+}
+
+.sobrenosotros {
+  margin-left: -10px;
+}
+
+.carrito {
+  width: 20px;
+  height: 20px;
+  margin-top: 30px;
+  margin-left: 170px;
+}
+
+.busqueda {
+  width: 20px;
+  height: 20px;
+  margin-top: 30px;
+  margin-left: -5px;
 }

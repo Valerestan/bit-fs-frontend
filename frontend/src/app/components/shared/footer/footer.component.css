@@ -1,0 +1,115 @@
+footer {
+  background-color: #f8f9fa;
+  height: 460px;
+  margin-top: 800px;
+}
+
+.logo {
+  width: 150px;
+  height: 80px;
+  margin-left: 690px;
+  margin-top: 40px;
+}
+.links-titulo {
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+  color: #323232;
+
+  /*tipografia*/
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.siguenos {
+  text-align: center;
+  margin-top: 20px;
+
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.instagram,
+.linkedin,
+.wpp {
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+}
+
+.instagram {
+  margin-left: 710px;
+}
+
+.linkedin {
+  margin-left: 10px;
+}
+.wpp {
+  margin-left: 10px;
+}
+
+.link-1,
+.link-2,
+.link-3 {
+  display: inline-block;
+  color: #323232a1;
+  margin-top: 20px;
+  
+
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.link-1 {
+  margin-left: 640px;
+}
+.link-2 {
+  margin-left: 10px;
+}
+.link-3 {
+  margin-left: 10px;
+}
+
+.linea {
+  border-color: white;
+  margin-top: 40px;
+}
+.links-1,
+.links-2,
+.links-3 {
+  display: inline-block;
+  margin-top: 20px;
+  color: #323232a1;
+
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.links-1 {
+  margin-left: 515px;
+}
+.links-2 {
+  margin-left: 10px;
+}
+.links-3 {
+  margin-left: 10px;
+}
+
+.derechos {
+  text-align: center;
+  margin-top: 7px;
+  color: #323232a1;
+
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
