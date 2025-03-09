@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './components/pages/home/home.component';
 import { ProductsComponent } from './components/pages/products/products.component';
-import { TendeciasComponent } from './components/tendecias/tendecias.component';
+import { TendenciasComponent } from './components/tendencias/tendencias.component';
 import { CollecionesComponent} from './components/colleciones/colleciones.component';
 import {SobrenosotrosComponent} from './components/sobrenosotros/sobrenosotros.component';
 import { PagenotfoundComponent } from './components/pages/pagenotfound/pagenotfound.component';
@@ -16,7 +16,7 @@ export const routes: Routes = [
   {
     path: 'tendecias',
     title: 'mäbello | Tendecias',
-    component: TendeciasComponent,
+    component: TendenciasComponent,
   },
   {
     path: 'colleciones',
