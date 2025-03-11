@@ -12,3 +12,21 @@
   <img href="../../colleciones" class="flecha" src="flecha.png" alt="flecha" />
 </div>
 
+<section>
+  <h1>{{ productos.length }} productos</h1>
+  <section class="productos">
+    @for (producto of productos; track $index) {
+    <div class="card" style="width: 18rem">
+      <img
+        src="{{ producto.imagen }}"
+        class="card-img-top"
+        alt="{{ producto.titulo }}"
+      />
+      <div class="card-body">
+        <h5 class="card-title">{{ producto.titulo }}</h5>
+        <p class="card-text">{{ producto.precio }}</p>
+        <a href="#" class="btn btn-primary">{{ producto.material }}</a>
+      </div>
+    </div>
+    }
+  </section>

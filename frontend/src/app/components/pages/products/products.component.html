@@ -7,23 +7,25 @@
   <img href="../../colleciones" class="flecha" src="flecha.png" alt="flecha" />
 </div>
 
-<div class="productos-container">
-  <h2>Productos Disponibles</h2>
+<section>
+  <h1>{{ productos.length }} productos</h1>
+  <section class="productos">
+    @for (producto of productos; track $index) {
+    <div class="card" style="width: 18rem">
+      <img
+        src="{{ producto.imagen }}"
+        class="img-card card-img-top"
+        alt="{{ producto.titulo }}"
+      />
+      <div class="card-body">
+        <h5 class=" card-title">{{ producto.titulo }}</h5>
+        <p class=" card-text">{{ producto.precio }}</p>
+        <p class=" card-text">{{ producto.material }}</p>
 
-  <!-- Verificamos si hay productos -->
-  <ng-container *ngIf="products.length > 0; else noProductos">
-    <div class="productos-lista">
-      <!-- Iteramos sobre los productos y mostramos cada tarjeta -->
-      <div *ngFor="let producto of products" class="producto-card">
-        <h3>{{ producto.nombre }}</h3>
-        <p>Precio: ${{ producto.precio }}</p>
-        <p>Cantidad: {{ producto.cantidad }}</p>
+        
+        <a href="#" class="btn btn-primary">{{ producto.material }}</a>
       </div>
     </div>
-  </ng-container>
-
-  <!-- Mensaje si no hay productos -->
-  <ng-template #noProductos>
-    <p>No hay productos disponibles.</p>
-  </ng-template>
-</div>
+    }
+  </section>
+</section>

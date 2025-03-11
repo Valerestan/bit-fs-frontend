@@ -1,32 +1,29 @@
 import { Component, inject, OnInit } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { ProductsService } from '../../../services/products.service';
+import { Product } from '../../../interfaces/products';
 
 @Component({
   selector: 'app-products',
+  imports: [FormsModule],
   templateUrl: './products.component.html',
-  styleUrls: ['./products.component.css'],
+  styleUrl: './products.component.css',
 })
 export class ProductsComponent implements OnInit {
-  products: any[] = []; 
   productsService = inject(ProductsService);
+
+  productos: any[] = [];
 
   ngOnInit() {
     this.obtenerTodosLosProductos();
   }
 
   obtenerTodosLosProductos() {
-    this.productsService.getAllProducts().subscribe(
-      (respuesta: any[]) => {
-        console.log('Respuesta recibida:', respuesta); 
-        if (respuesta && respuesta.length > 0) {
-          this.products = respuesta; 
-        } else {
-          console.log('No se encontraron productos.');
-        }
-      },
-      (error) => {
-        console.error('Error al obtener productos:', error); 
-      }
-    );
+    this.productsService.getAllProducts().subscribe((respuesta: any) => {
+      console.log('respuesta:', respuesta);
+      this.productos = respuesta.data.filter(
+        (producto: any) => producto.categoria === 'productos'
+      );
+    });
   }
 }
