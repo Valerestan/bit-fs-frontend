@@ -1,18 +1,32 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { ProductsService } from '../../../services/products.service';
 
 @Component({
   selector: 'app-products',
-  imports: [],
   templateUrl: './products.component.html',
-  styleUrl: './products.component.css',
+  styleUrls: ['./products.component.css'],
 })
-export class ProductsComponent {
+export class ProductsComponent implements OnInit {
+  products: any[] = []; 
   productsService = inject(ProductsService);
 
+  ngOnInit() {
+    this.obtenerTodosLosProductos();
+  }
+
   obtenerTodosLosProductos() {
-    this.productsService.getAllProducts().subscribe((respuesta: any) => {
-      console.log('respuesta:', respuesta);
-    });
+    this.productsService.getAllProducts().subscribe(
+      (respuesta: any[]) => {
+        console.log('Respuesta recibida:', respuesta); 
+        if (respuesta && respuesta.length > 0) {
+          this.products = respuesta; 
+        } else {
+          console.log('No se encontraron productos.');
+        }
+      },
+      (error) => {
+        console.error('Error al obtener productos:', error); 
+      }
+    );
   }
 }

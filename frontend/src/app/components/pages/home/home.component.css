@@ -1,12 +1,12 @@
 /*PORTADA*/
 .img-fluid {
   width: 100%;
-  height: 800px;
+  height: 900px;
   margin-top: -120px;
 }
 
 .titulo-portada {
-  margin-top: -470px;
+  margin-top: -520px;
   font-size: 120px;
   color: rgba(255, 255, 255, 0.422);
   text-align: center;
@@ -20,19 +20,25 @@
 .copy-titulo {
   font-size: 20px;
   color: rgb(255, 255, 255);
-  margin-top: 20px;
+  margin-top: 100px;
   text-align: center;
   font-family: "Gabarito", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
+.flecha {
+  width: 25px;
+  height: 25px;
+  margin-top: 20px;
+  margin-left: 750px;
+}
 
 /*SOBRE NOSOTROS*/
 
 .titulo-nosotros {
   font-size: 50px;
-  margin-top: 350px;
+  margin-top: 250px;
   margin-left: 300px;
   line-height: 50px;
   color: #323232;
@@ -72,6 +78,7 @@
 .colorfondo {
   background-color: #1c1c1c;
   height: 700px;
+  margin-top: -30px;
 }
 .img-tendencias {
   width: 720px;
@@ -165,12 +172,13 @@
 
 /*COLECCION*/
 
-.img-coleccion{
+.img-coleccion {
   width: 100%;
+  z-index: 1;
 }
 
-.subtitulo-cole{
- margin-top: -85px;
+.subtitulo-cole {
+  margin-top: -85px;
   margin-left: 1160px;
   font-size: 25px;
   color: #323232fa;
@@ -180,8 +188,9 @@
   font-weight: 400;
   font-style: normal;
 }
-.texto-deco{
-  margin-top: -750px;
+
+.explorar {
+  margin-top: 20px;
   margin-left: 270px;
   font-size: 15px;
   color: #323232fa;
@@ -191,18 +200,7 @@
   font-weight: 400;
   font-style: normal;
 }
-.explorar{
-   margin-top: 20px;
-  margin-left: 270px;
-  font-size: 15px;
-  color: #323232fa;
-  /*tipografia*/
-  font-family: "Gabarito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-.titulo-cole{
+.titulo-cole {
   font-size: 70px;
   letter-spacing: 1px;
   margin-left: 999px;
@@ -214,14 +212,14 @@
   font-style: bold;
 }
 
-.texto-cole{
+.texto-cole {
   font-size: 15px;
   width: 250px;
   text-align: right;
   margin-left: 1009px;
   margin-top: 13px;
   color: #1c1c1cac;
-   /*tipografia*/
+  /*tipografia*/
   font-family: "Gabarito", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -229,7 +227,7 @@
 }
 
 .btn-cole {
-  margin-left: 1160px;
+  margin-left: 320px;
   margin-top: 20px;
   display: inline-block;
   padding: 12px 24px;
@@ -247,9 +245,30 @@
   font-weight: 400;
   font-style: normal;
 }
-
+.texto-deco {
+  margin-top: 200px;
+  margin-left: 270px;
+  font-size: 20px;
+  color: #323232b6;
+  /*tipografia*/
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
 .btn-cole:hover {
   background-color: white;
   color: black;
   transform: scale(1.1);
+}
+
+.contenedor-coleccion {
+  margin-left: -165px;
+  margin-top: 0px;
+}
+
+.parrafo {
+  z-index: 2;
+  margin-top: -900px;
 }

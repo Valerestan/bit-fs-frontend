@@ -1,4 +1,29 @@
-<p>productos!</p>
-<button (click)="obtenerTodosLosProductos()">
-  Obtener todos los productos
-</button>
+<img class="img-tendencias-portada" src="produc.jpg" alt="tendencias" />
+<p class="estilo">INSPIRATION</p>
+<div class="cuadro"></div>
+<p class="titulo-portada">PRODUCTS</p>
+<div class="contenedor-producto">
+  <a href="../../colleciones" class="btn-cole">Carrito</a>
+  <img href="../../colleciones" class="flecha" src="flecha.png" alt="flecha" />
+</div>
+
+<div class="productos-container">
+  <h2>Productos Disponibles</h2>
+
+  <!-- Verificamos si hay productos -->
+  <ng-container *ngIf="products.length > 0; else noProductos">
+    <div class="productos-lista">
+      <!-- Iteramos sobre los productos y mostramos cada tarjeta -->
+      <div *ngFor="let producto of products" class="producto-card">
+        <h3>{{ producto.nombre }}</h3>
+        <p>Precio: ${{ producto.precio }}</p>
+        <p>Cantidad: {{ producto.cantidad }}</p>
+      </div>
+    </div>
+  </ng-container>
+
+  <!-- Mensaje si no hay productos -->
+  <ng-template #noProductos>
+    <p>No hay productos disponibles.</p>
+  </ng-template>
+</div>

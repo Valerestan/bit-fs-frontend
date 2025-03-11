@@ -1,57 +1,260 @@
-.img-nosotros{
-width: 100%;
+.fondo {
+  background-color: #d7d7d7;
 }
-.subtitulo{
-font-size: 25px;
-color: #323232;
-margin-top: 220px;
-margin-left: 470px;
-
-    /*tipografia*/
-  font-family: "Gabarito", sans-serif;
-  font-optical-sizing: auto;
+.titulo-portada {
+  font-size: 150px;
+  margin-left: 130px;
+  padding-top: 220px;
+  color: #323232;
+  /*tipografia*/
+  font-family: "Archivo Black", sans-serif;
   font-weight: 400;
   font-style: normal;
-
-
 }
 
-.titulo{
-  font-size: 80px;
-  letter-spacing: 5px;
-    margin-top: 20px;
-    text-align: center;
-    line-height: 50px;
-    color: #323232ae;
-
-     /*tipografia*/
+.contenedor {
+  width: 500px;
+  height: 400px;
+  text-align: justify;
+  margin-left: 510px;
+  margin-top: 90px;
+  color: #323232ae;
+  /*tipografia*/
   font-family: "Gabarito", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-.contenedor{
-    width: 500px ;
-    height: 400px ;
-    text-align: justify;
-    margin-left: 510px;
-    margin-top: 90px;
-     color: #323232ae;
-    /*tipografia*/
+.contenedor-termino {
+  width: 500px;
+  height: 400px;
+  text-align: justify;
+  margin-left: 510px;
+  margin-top: 30px;
+  color: #323232ae;
+  /*tipografia*/
   font-family: "Gabarito", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-.creadora{
-margin-top: 0px;
-margin-left: 510px;
-color: #323232;
-    /*tipografia*/
+.contenedor-politica {
+  width: 500px;
+  height: 400px;
+  text-align: justify;
+  margin-left: 510px;
+  margin-top: 50px;
+  color: #323232ae;
+  /*tipografia*/
   font-family: "Gabarito", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  font-style: normal;
+}
+
+.creadora {
+  margin-top: 250px;
+  margin-left: 510px;
+  color: #323232;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.terminos {
+  margin-top: 80px;
+  margin-left: 510px;
+  color: #323232;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.politica {
+  margin-top: 400px;
+  margin-left: 510px;
+  color: #323232;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.preguntas {
+  margin-top: 80px;
+  margin-left: 510px;
+  color: #323232;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.complemento {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 510px;
+  line-height: 15px;
+
+  color: #323232ae;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.preguntasuno {
+  width: 600px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #d7d7d7;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.078);
+  margin-left: 480px;
+  margin-top: 90px;
+}
+
+.unonumero {
+  margin-left: 40px;
+  padding-top: 20px;
+  font-size: 40px;
+  color: #393b3c;
+  line-height: 67px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.preguntauno {
+  margin-left: 110px;
+  margin-top: -70px;
+  font-size: 22px;
+  color: #393b3c;
+  line-height: 67px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.respuestauno {
+  margin-left: 110px;
+  margin-top: 0px;
+  font-size: 11px;
+  color: #393b3ca4;
+  line-height: 15px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.preguntascuadro {
+  width: 600px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #d7d7d7;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.078);
+  margin-left: 480px;
+  margin-top: 50px;
+}
+
+.dosnumero {
+  margin-left: 40px;
+  padding-top: 20px;
+  font-size: 40px;
+  color: #393b3c;
+  line-height: 67px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.preguntados {
+  margin-left: 110px;
+  margin-top: -70px;
+  font-size: 22px;
+  color: #393b3c;
+  line-height: 67px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.respuestados {
+  margin-left: 110px;
+  margin-top: 0px;
+  font-size: 11px;
+  color: #393b3ca4;
+  line-height: 15px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.preguntascuadrotres {
+  width: 600px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #d7d7d7;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.078);
+  margin-left: 480px;
+  margin-top: 50px;
+}
+
+.tresnumero {
+  margin-left: 40px;
+  padding-top: 20px;
+  font-size: 40px;
+  color: #393b3c;
+  line-height: 67px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.preguntatres {
+  margin-left: 110px;
+  margin-top: -70px;
+  font-size: 22px;
+  color: #393b3c;
+  line-height: 67px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.respuestatres {
+  margin-left: 110px;
+  margin-top: 0px;
+  font-size: 11px;
+  color: #393b3ca4;
+  line-height: 15px;
+
+  font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
   font-style: normal;
 }
