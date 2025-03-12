@@ -16,12 +16,9 @@
     <h1 class="titulo-mabello text-center fw-bold">Galery mäbello</h1>
 
     <p class="copy-titulo-principal">¡Explora, inspírate y hazlo realidad!</p>
-    <img
-      href="../../colleciones"
-      class="flecha-portada"
-      src="flecha1.png"
-      alt="flecha"
-    />
+    <a href="#iracomprar">
+      <img class="flecha-portada" src="flecha1.png" alt="flecha" />
+    </a>
   </section>
 
   <!--Acerca de Nosotros-->
@@ -40,7 +37,7 @@
   </section>
 
   <!--Tendencias-->
-  <section class="colorfondo-tendencias">
+  <section class="colorfondo-tendencias" id="iracomprar">
     <img class="img-tendencias" src="tendencias-1.jpg" alt="paneltendencias" />
     <div class="segundocontenedor-tendencias">
       <p class="subtitulo-tendencias">Diseño e Innovación</p>
@@ -69,7 +66,7 @@
     Explora nuestra exclusiva colección de muebles y <br />encuentra la pieza
     perfecta para transformar tu espacio.
   </p>
-  <a href="../../colleciones" class="btn-comprar">ver más</a>
+  <a href="../productos" class="btn-comprar">ver más</a>
   <section class="productos">
     <div class="d-flex flex-wrap justify-content-center">
       @for (producto of productos; track $index) {

@@ -1,10 +1,11 @@
-.fondo {
-  background-color: #d7d7d7;
+.img-nosotros-portada {
+  width: 100%;
 }
+
 .titulo-portada {
   font-size: 150px;
   margin-left: 130px;
-  padding-top: 220px;
+  padding-top: 100px;
   color: #323232;
   /*tipografia*/
   font-family: "Archivo Black", sans-serif;
@@ -13,10 +14,10 @@
 }
 
 .contenedor {
-  width: 500px;
-  height: 400px;
+  width: 700px;
+  height: 300px;
   text-align: justify;
-  margin-left: 510px;
+  margin-left: 450px;
   margin-top: 90px;
   color: #323232ae;
   /*tipografia*/
@@ -25,12 +26,32 @@
   font-weight: 400;
   font-style: normal;
 }
-
+.creadora {
+  margin-top: 30px;
+  margin-left: 700px;
+  color: #323232;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.terminos {
+  margin-top: 130px;
+  margin-left: 450px;
+  color: #323232;
+  font-size: 20px;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
 .contenedor-termino {
-  width: 500px;
+  width: 700px;
   height: 400px;
   text-align: justify;
-  margin-left: 510px;
+  margin-left: 450px;
   margin-top: 30px;
   color: #323232ae;
   /*tipografia*/
@@ -40,56 +61,35 @@
   font-style: normal;
 }
 
+.politica {
+  margin-top: 350px;
+  margin-left: 450px;
+  color: #323232;
+  font-size: 20px;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
 .contenedor-politica {
-  width: 500px;
+  width: 700px;
   height: 400px;
   text-align: justify;
-  margin-left: 510px;
-  margin-top: 50px;
+  margin-left: 450px;
+  margin-top: 30px;
   color: #323232ae;
   /*tipografia*/
   font-family: "Gabarito", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-}
-
-.creadora {
-  margin-top: 250px;
-  margin-left: 510px;
-  color: #323232;
-  /*tipografia*/
-  font-family: "Gabarito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.terminos {
-  margin-top: 80px;
-  margin-left: 510px;
-  color: #323232;
-  /*tipografia*/
-  font-family: "Gabarito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: bold;
-}
-
-.politica {
-  margin-top: 400px;
-  margin-left: 510px;
-  color: #323232;
-  /*tipografia*/
-  font-family: "Gabarito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: bold;
 }
 
 .preguntas {
-  margin-top: 80px;
-  margin-left: 510px;
+  margin-top: 300px;
+  text-align: center;
+  font-size: 20px;
   color: #323232;
   /*tipografia*/
   font-family: "Gabarito", sans-serif;
@@ -98,28 +98,14 @@
   font-style: bold;
 }
 
-.complemento {
-  font-size: 15px;
-  margin-top: 20px;
-  margin-left: 510px;
-  line-height: 15px;
-
-  color: #323232ae;
-  /*tipografia*/
-  font-family: "Gabarito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .preguntasuno {
-  width: 600px;
-  height: 150px;
+  width: 550px;
+  height: 200px;
   border-radius: 10px;
-  background-color: #d7d7d7;
+  background-color: white;
   box-shadow: 0 30px 30px rgba(0, 0, 0, 0.078);
   margin-left: 480px;
-  margin-top: 90px;
+  margin-top: 40px;
 }
 
 .unonumero {
@@ -137,7 +123,7 @@
 
 .preguntauno {
   margin-left: 110px;
-  margin-top: -70px;
+  margin-top: -90px;
   font-size: 22px;
   color: #393b3c;
   line-height: 67px;
@@ -147,13 +133,16 @@
   font-weight: 700;
   font-style: bold;
 }
-
+.cajapregunta1 {
+  width: 500px;
+}
 .respuestauno {
   margin-left: 110px;
-  margin-top: 0px;
+  margin-top: -20px;
   font-size: 11px;
   color: #393b3ca4;
   line-height: 15px;
+  text-align: justify;
 
   font-family: "Gabarito", serif;
   font-optical-sizing: auto;
@@ -162,13 +151,13 @@
 }
 
 .preguntascuadro {
-  width: 600px;
-  height: 150px;
+  width: 550px;
+  height: 200px;
   border-radius: 10px;
-  background-color: #d7d7d7;
+  background-color: white;
   box-shadow: 0 30px 30px rgba(0, 0, 0, 0.078);
   margin-left: 480px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .dosnumero {
@@ -186,7 +175,7 @@
 
 .preguntados {
   margin-left: 110px;
-  margin-top: -70px;
+  margin-top: -90px;
   font-size: 22px;
   color: #393b3c;
   line-height: 67px;
@@ -197,13 +186,16 @@
   font-style: bold;
 }
 
+.cajapreguntados {
+  width: 500px;
+}
 .respuestados {
   margin-left: 110px;
-  margin-top: 0px;
+  margin-top: -20px;
   font-size: 11px;
   color: #393b3ca4;
   line-height: 15px;
-
+  text-align: justify;
   font-family: "Gabarito", serif;
   font-optical-sizing: auto;
   font-weight: 200;
@@ -211,13 +203,13 @@
 }
 
 .preguntascuadrotres {
-  width: 600px;
-  height: 150px;
+  width: 550px;
+  height: 200px;
   border-radius: 10px;
-  background-color: #d7d7d7;
+  background-color: white;
   box-shadow: 0 30px 30px rgba(0, 0, 0, 0.078);
   margin-left: 480px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .tresnumero {
@@ -238,12 +230,15 @@
   margin-top: -70px;
   font-size: 22px;
   color: #393b3c;
-  line-height: 67px;
+  line-height: 30px;
 
   font-family: "Gabarito", serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: bold;
+}
+.cajapreguntatres {
+  width: 500px;
 }
 
 .respuestatres {
@@ -252,6 +247,7 @@
   font-size: 11px;
   color: #393b3ca4;
   line-height: 15px;
+  text-align: justify;
 
   font-family: "Gabarito", serif;
   font-optical-sizing: auto;

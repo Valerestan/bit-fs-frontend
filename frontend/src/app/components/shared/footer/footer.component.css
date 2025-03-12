@@ -38,13 +38,26 @@ footer {
   height: 30px;
   margin-top: 0px;
 }
+.wpp:hover {
+  transform: scale(1.2); /* Aumentar el tamaño */
+  transition: transform 0.3s ease;
+}
 
 .instagram {
   margin-left: 710px;
 }
+.instagram:hover {
+  transform: scale(1.2); /* Aumentar el tamaño */
+  transition: transform 0.3s ease;
+}
+
 
 .linkedin {
   margin-left: 10px;
+}
+.linkedin:hover {
+  transform: scale(1.2); /* Aumentar el tamaño */
+  transition: transform 0.3s ease;
 }
 .wpp {
   margin-left: 10px;
@@ -66,11 +79,23 @@ footer {
 .link-1 {
   margin-left: 640px;
 }
+.link-1:hover {
+color: black;
+  transition: transform 0.3s ease;
+}
 .link-2 {
   margin-left: 10px;
 }
+.link-2:hover {
+color: black;
+  transition: transform 0.3s ease;
+}
 .link-3 {
   margin-left: 10px;
+}
+.link-3:hover {
+color: black;
+  transition: transform 0.3s ease;
 }
 
 .linea {
@@ -94,13 +119,24 @@ footer {
 .links-1 {
   margin-left: 515px;
 }
+.links-1:hover {
+color: black;
+  transition: transform 0.3s ease;
+}
 .links-2 {
   margin-left: 10px;
+}
+.links-2:hover {
+color: black;
+  transition: transform 0.3s ease;
 }
 .links-3 {
   margin-left: 10px;
 }
-
+.links-3:hover {
+color: black;
+  transition: transform 0.3s ease;
+}
 .derechos {
   text-align: center;
   margin-top: -10px;
