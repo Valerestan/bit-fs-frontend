@@ -1,6 +1,6 @@
 # Galery mäbello
 
-## Link de sitio web: [Galery mäbello](https://valerestan.github.io/bit-fs-frontend/)
+## Link de sitio web: [Galery mäbello](https://valerestan.github.io/bit-fs-frontend/frontend)
 
 En este proyecto combinó Angular, un sólido backend y Postman utilizando el CRUD para lograr una solución moderna y eficiente, que ofrece una experiencia de usuario optimizada y una arquitectura sólida para el manejo de datos y funcionalidades avanzadas.
 
