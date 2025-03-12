@@ -1,7 +1,7 @@
 footer {
   background-color: #f8f9fa;
-  height: 460px;
-  margin-top: 800px;
+  height: 430px;
+  margin-top: 50px;
 }
 
 .logo {
@@ -12,7 +12,7 @@ footer {
 }
 .links-titulo {
   font-size: 30px;
-  margin-top: 20px;
+  margin-top: 60px;
   text-align: center;
   color: #323232;
 
@@ -23,7 +23,7 @@ footer {
 }
 .siguenos {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 0px;
 
   /*tipografia*/
   font-family: "Gabarito", sans-serif;
@@ -36,7 +36,7 @@ footer {
 .wpp {
   width: 30px;
   height: 30px;
-  margin-top: 15px;
+  margin-top: 0px;
 }
 
 .instagram {
@@ -55,8 +55,7 @@ footer {
 .link-3 {
   display: inline-block;
   color: #323232a1;
-  margin-top: 20px;
-  
+  margin-top: 10px;
 
   /*tipografia*/
   font-family: "Gabarito", sans-serif;
@@ -76,13 +75,13 @@ footer {
 
 .linea {
   border-color: white;
-  margin-top: 40px;
+  margin-top: -30px;
 }
 .links-1,
 .links-2,
 .links-3 {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 0px;
   color: #323232a1;
 
   /*tipografia*/
@@ -104,7 +103,7 @@ footer {
 
 .derechos {
   text-align: center;
-  margin-top: 7px;
+  margin-top: -10px;
   color: #323232a1;
 
   /*tipografia*/

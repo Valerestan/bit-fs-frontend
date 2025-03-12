@@ -49,3 +49,54 @@
   margin-left: 850px;
   margin-top: -80px;
 }
+
+/*CARDS*/
+
+.card {
+  border: none;
+  padding-top: 100px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 27px;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.precio {
+  text-align: center;
+  font-size: 16px;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.material {
+  text-align: center;
+  font-size: 16px;
+  margin-top: -18px;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.num-produc {
+  margin-top: 90px;
+  text-align: center;
+  font-size: 24px;
+  color: #323232d6;
+  font-size: 20px;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

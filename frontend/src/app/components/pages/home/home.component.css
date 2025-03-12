@@ -5,10 +5,10 @@
   margin-top: -120px;
 }
 
-.titulo-portada {
+.titulo-mabello {
   margin-top: -520px;
-  font-size: 120px;
-  color: rgba(255, 255, 255, 0.422);
+  font-size: 150px;
+  color: rgba(255, 255, 255, 0.582);
   text-align: center;
 
   font-family: "Gabarito", sans-serif;
@@ -17,20 +17,20 @@
   font-style: normal;
 }
 
-.copy-titulo {
-  font-size: 20px;
+.copy-titulo-principal {
+  font-size: 23px;
   color: rgb(255, 255, 255);
-  margin-top: 100px;
+  margin-top: 150px;
   text-align: center;
   font-family: "Gabarito", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
-.flecha {
-  width: 25px;
-  height: 25px;
-  margin-top: 20px;
+.flecha-portada {
+  width: 28px;
+  height: 28px;
+  margin-top: 0px;
   margin-left: 750px;
 }
 
@@ -38,7 +38,7 @@
 
 .titulo-nosotros {
   font-size: 50px;
-  margin-top: 250px;
+  margin-top: 220px;
   margin-left: 300px;
   line-height: 50px;
   color: #323232;
@@ -63,33 +63,33 @@
   font-style: normal;
 }
 
-.hr-linea {
+.hr-linea-nosotros {
   width: 60px;
   margin-top: 15px;
   border: 1.5px solid rgba(0, 0, 0, 0.372);
 }
 
-.leermas {
+.leermas-nosotros {
   text-decoration: none;
   color: #323232;
 }
 
 /*TENDECIAS*/
-.colorfondo {
+.colorfondo-tendencias {
   background-color: #1c1c1c;
   height: 700px;
-  margin-top: -30px;
+  margin-top: -20px;
 }
 .img-tendencias {
   width: 720px;
   height: 700px;
 }
 
-.segundocontenedor {
-  margin-top: -750px;
+.segundocontenedor-tendencias {
+  margin-top: -800px;
 }
 
-.subtitulo {
+.subtitulo-tendencias {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.717);
   margin-top: 220px;
@@ -102,7 +102,7 @@
   font-style: normal;
 }
 
-.titulo {
+.titulo-tendencias {
   font-size: 80px;
   letter-spacing: 2px;
   margin-top: 20px;
@@ -117,7 +117,7 @@
   font-style: bold;
 }
 
-.contenedor {
+.contenedor-tendencias {
   width: 430px;
   height: 400px;
   text-align: justify;
@@ -132,7 +132,7 @@
   font-style: normal;
 }
 
-.creadora {
+.creadora-tendencias {
   margin-top: 50px;
   font-size: 20px;
   text-align: center;
@@ -170,18 +170,25 @@
   transform: scale(1.1);
 }
 
-/*COLECCION*/
+/*PRODUCTOS*/
+/*CARDS*/
 
-.img-coleccion {
-  width: 100%;
-  z-index: 1;
+.titulo-producto{
+  font-size: 40px;
+  margin-top: 90px;
+  text-align: center;
+ color:  #323232;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
 }
 
-.subtitulo-cole {
-  margin-top: -85px;
-  margin-left: 1160px;
-  font-size: 25px;
-  color: #323232fa;
+.subtitulo-producto{
+ text-align: center;
+ color:  #3232329d;
+ font-size: 18px;
   /*tipografia*/
   font-family: "Gabarito", sans-serif;
   font-optical-sizing: auto;
@@ -189,10 +196,112 @@
   font-style: normal;
 }
 
-.explorar {
-  margin-top: 20px;
-  margin-left: 270px;
-  font-size: 15px;
+.card {
+  border: none;
+  padding-top: 60px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 27px;
+  color:  #323232;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+
+.precio {
+  text-align: center;
+  font-size: 16px;
+  color:  #3232329a;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.material {
+  text-align: center;
+  font-size: 16px;
+  margin-top: -18px;
+  color:  #3232329a;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.num-produc {
+  margin-top: 90px;
+  text-align: center;
+  font-size: 24px;
+  color: #323232d6;
+  font-size: 20px;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.texto-comprar {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  color:  #323232d6;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
+.btn-comprar {
+  margin-left: 710px;
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: white;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn-comprar:hover {
+  background-color:rgb(176, 175, 175);
+  color: black;
+  transform: scale(1.1);
+}
+
+/*COLECCION*/
+
+.colecciones{
+  margin-top: 50px;
+}
+
+.img-coleccion {
+  width: 100%;
+  z-index: 1;
+}
+
+.contenedor-coleccion {
+  margin-top: -740px;
+  margin-left: -130px;
+  z-index: 2;
+}
+.subtitulo-cole {
+  margin-top: -85px;
+  margin-left: 1160px;
+  font-size: 25px;
   color: #323232fa;
   /*tipografia*/
   font-family: "Gabarito", sans-serif;
@@ -211,7 +320,6 @@
   font-weight: 800;
   font-style: bold;
 }
-
 .texto-cole {
   font-size: 15px;
   width: 250px;
@@ -226,9 +334,21 @@
   font-style: normal;
 }
 
+.texto-deco {
+  margin-top: 360px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  /*tipografia*/
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+}
 .btn-cole {
-  margin-left: 320px;
-  margin-top: 20px;
+  margin-left: 720px;
+
   display: inline-block;
   padding: 12px 24px;
   background-color: rgb(176, 175, 175);
@@ -245,30 +365,20 @@
   font-weight: 400;
   font-style: normal;
 }
-.texto-deco {
-  margin-top: 200px;
-  margin-left: 270px;
-  font-size: 20px;
-  color: #323232b6;
-  /*tipografia*/
-  /*tipografia*/
-  font-family: "Gabarito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: bold;
-}
 .btn-cole:hover {
   background-color: white;
   color: black;
   transform: scale(1.1);
 }
 
-.contenedor-coleccion {
-  margin-left: -165px;
-  margin-top: 0px;
-}
-
-.parrafo {
-  z-index: 2;
-  margin-top: -900px;
+.explorar {
+  margin-top: 20px;
+  margin-left: 270px;
+  font-size: 15px;
+  color: #323232fa;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }

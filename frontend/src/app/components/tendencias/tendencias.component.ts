@@ -3,10 +3,11 @@ import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { ProductsService } from '../../services/products.service';
 import { Product } from '../../interfaces/products';
+import { CurrencyPipe } from '@angular/common';
 
 @Component({
   selector: 'app-products',
-  imports: [FormsModule],
+  imports: [FormsModule, CurrencyPipe,],
   templateUrl: './tendencias.component.html',
   styleUrl: './tendencias.component.css',
 })
