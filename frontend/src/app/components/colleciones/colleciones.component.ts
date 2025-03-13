@@ -14,6 +14,7 @@ export class CollecionesComponent {
   productsService = inject(ProductsService);
 
   productos: any[] = [];
+  carrito: any[] = [];
 
   ngOnInit() {
     this.obtenerTodosLoscoleccion();
@@ -26,5 +27,9 @@ export class CollecionesComponent {
         (producto: any) => producto.categoria === 'coleccion'
       );
     });
+  }
+  onClick(producto: any) {
+    this.carrito.push(producto);
+    this.productsService.cambiarCantidad(this.carrito.length);
   }
 }

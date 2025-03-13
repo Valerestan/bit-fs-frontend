@@ -1,4 +1,4 @@
-import { Injectable, inject } from '@angular/core';
+import { Injectable, WritableSignal, inject, signal } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Product } from '../interfaces/products';
 import { Observable } from 'rxjs';
@@ -10,6 +10,8 @@ export class ProductsService {
   constructor() {}
 
   httpClient = inject(HttpClient);
+
+  cantidadCarrito: WritableSignal<number> = signal(0);
 
   createProduct(product: Product) {
     return this.httpClient.post('http://localhost:3000/productos', product);
@@ -32,5 +34,10 @@ export class ProductsService {
 
   deleteOneProduct(id: string) {
     return this.httpClient.delete(`http://localhost:3000/productos/${id}`);
+  }
+
+  cambiarCantidad(cantidad: number) {
+    this.cantidadCarrito.set(cantidad);
+    console.log('cantidadCarrito', this.cantidadCarrito());
   }
 }

@@ -3,7 +3,7 @@
 <div class="cuadro"></div>
 <p class="titulo-portada">PRODUCTS</p>
 <div class="contenedor-producto">
-  <a href="../../colleciones" class="btn-cole">Carrito</a>
+  <a href="../../productos" class="btn-cole">Carrito</a>
   <img href="../../colleciones" class="flecha" src="flecha.png" alt="flecha" />
 </div>
 
@@ -16,12 +16,16 @@
           src="{{ producto.imagen }}"
           class="img-card card-img-top"
           alt="{{ producto.titulo }}"
+          
           style="width: 100%; height: 400px; object-fit: cover"
         />
         <div class="card-body">
           <h5 class="titulo card-title">{{ producto.titulo }}</h5>
           <p class="precio card-text">{{ producto.precio | currency }}</p>
           <p class="material card-text">{{ producto.material }}</p>
+          <button (click)="onClick(producto)" type="button" class="btn-comprar">
+            Agregar
+          </button>
         </div>
       </div>
       }

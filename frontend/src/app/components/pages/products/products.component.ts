@@ -1,7 +1,6 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ProductsService } from '../../../services/products.service';
-import { Product } from '../../../interfaces/products';
 import { CurrencyPipe } from '@angular/common';
 
 @Component({
@@ -14,6 +13,7 @@ export class ProductsComponent implements OnInit {
   productsService = inject(ProductsService);
 
   productos: any[] = [];
+  carrito: any[] = [];
 
   ngOnInit() {
     this.obtenerTodosLosProductos();
@@ -26,5 +26,10 @@ export class ProductsComponent implements OnInit {
         (producto: any) => producto.categoria === 'productos'
       );
     });
+  }
+
+  onClick(producto: any) {
+    this.carrito.push(producto);
+    this.productsService.cambiarCantidad(this.carrito.length);
   }
 }

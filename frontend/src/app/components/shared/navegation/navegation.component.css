@@ -5,7 +5,7 @@ nav {
   backdrop-filter: blur(10px);
   width: 100%;
   height: 80px;
-  position: fixed ;
+  position: fixed;
   z-index: 1;
   margin-top: 40px;
 }
@@ -24,8 +24,9 @@ nav {
 .sobrenosotros {
   margin: 30px;
   text-decoration: none;
-  color:white;
-
+  color: white;
+  cursor: pointer;
+  display: inline-block;
   /*tipografia*/
   font-family: "Gabarito", sans-serif;
   font-optical-sizing: auto;
@@ -36,21 +37,40 @@ nav {
 .inicio {
   margin-left: 190px;
 }
+.inicio:hover {
+  color: #555;
+  transform: scale(1.1);
+}
 
 .productos {
   margin-left: -10px;
+}
+.productos:hover {
+  color: #555;
+  transform: scale(1.1);
 }
 
 .tendecias {
   margin-left: -10px;
 }
+.tendecias:hover {
+  color: #555;
+  transform: scale(1.1);
+}
 
 .colleciones {
   margin-left: -10px;
 }
-
+.colleciones:hover {
+  color: #555;
+  transform: scale(1.1);
+}
 .sobrenosotros {
   margin-left: -10px;
+}
+.sobrenosotros:hover {
+  color: #555;
+  transform: scale(1.1);
 }
 
 .carrito {
@@ -59,10 +79,26 @@ nav {
   margin-top: 30px;
   margin-left: 170px;
 }
-
+.carrito:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
 .busqueda {
   width: 20px;
   height: 20px;
   margin-top: 30px;
   margin-left: -5px;
+}
+.busqueda:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+.cantidad {
+  color: white;
+  /*tipografia*/
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
 }

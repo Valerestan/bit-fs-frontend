@@ -7,8 +7,8 @@
 <div class="cuadro"></div>
 <p class="titulo-portada">TREND</p>
 <div class="contenedor-producto">
-  <a href="../../pages/products" class="btn-cole">Productos</a>
-  <img href="../../colleciones" class="flecha" src="flecha.png" alt="flecha" />
+  <a href="../../productos" class="btn-cole">Productos</a>
+  <img href="../../productos" class="flecha" src="flecha.png" alt="flecha" />
 </div>
 
 <section>
@@ -26,6 +26,9 @@
           <h5 class="titulo card-title">{{ producto.titulo }}</h5>
           <p class="precio card-text">{{ producto.precio | currency }}</p>
           <p class="material card-text">{{ producto.material }}</p>
+          <button (click)="onClick(producto)" type="button" class="btn-comprar">
+            Agregar
+          </button>
         </div>
       </div>
       }

@@ -14,6 +14,7 @@ export class HomeComponent implements OnInit {
   productsService = inject(ProductsService);
 
   productos: any[] = [];
+  carrito: any[] = [];
 
   ngOnInit() {
     this.obtenerTodosLoshome();
@@ -26,5 +27,9 @@ export class HomeComponent implements OnInit {
         (producto: any) => producto.categoria === 'home'
       );
     });
+  }
+  onClick(producto: any) {
+    this.carrito.push(producto);
+    this.productsService.cambiarCantidad(this.carrito.length);
   }
 }

@@ -7,7 +7,7 @@ import { CurrencyPipe } from '@angular/common';
 
 @Component({
   selector: 'app-products',
-  imports: [FormsModule, CurrencyPipe,],
+  imports: [FormsModule, CurrencyPipe],
   templateUrl: './tendencias.component.html',
   styleUrl: './tendencias.component.css',
 })
@@ -15,6 +15,7 @@ export class TendeciasComponent implements OnInit {
   productsService = inject(ProductsService);
 
   productos: any[] = [];
+  carrito: any[] = [];
 
   ngOnInit() {
     this.obtenerTodosLostendencias();
@@ -27,5 +28,9 @@ export class TendeciasComponent implements OnInit {
         (producto: any) => producto.categoria === 'tendencias'
       );
     });
+  }
+  onClick(producto: any) {
+    this.carrito.push(producto);
+    this.productsService.cambiarCantidad(this.carrito.length);
   }
 }

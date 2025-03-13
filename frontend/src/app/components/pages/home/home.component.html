@@ -81,6 +81,9 @@
           <h5 class="titulo card-title">{{ producto.titulo }}</h5>
           <p class="precio card-text">{{ producto.precio | currency }}</p>
           <p class="material card-text">{{ producto.material }}</p>
+          <button (click)="onClick(producto)" type="button" class="btn-comprar">
+          Agregar
+        </button>
         </div>
       </div>
       }
