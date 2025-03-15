@@ -28,7 +28,7 @@
       <p>
         En Galery mäbello, nos apasiona ofrecerte lo mejor en diseño de muebles
         para transformar tu hogar o espacio de trabajo. Nuestra galería presenta
-        una cuidada selección de piezas únicas que combinan funcionalidad,
+        una cuidadosa selección de piezas únicas que combinan funcionalidad,
         estilo y calidad, pensadas para satisfacer tus necesidades y gustos.
       </p>
       <hr class="hr-linea-nosotros" />
@@ -37,13 +37,14 @@
   </section>
 
   <!--Tendencias-->
-  <section class="colorfondo-tendencias" id="iracomprar">
-    <img class="img-tendencias" src="tendencias-1.jpg" alt="paneltendencias" />
-    <div class="segundocontenedor-tendencias">
-      <p class="subtitulo-tendencias">Diseño e Innovación</p>
-      <p class="titulo-tendencias">Fusión Urbana</p>
+  <img class="img-tendencias" src="tendencias-1.jpg" alt="paneltendencias" />
+  <section  id="iracomprar">
+    <div class="colorfondo-tendencias">
     </div>
-
+    <div class="cajamover">
+    <p class="subtitulo-tendencias">Diseño e Innovación</p>
+    <p class="titulo-tendencias">Fusión Urbana</p>
+    </div>
     <div class="contenedor-tendencias">
       <p>
         Descubre nuestro muble Fusión Urbana, la pieza en tendencia que
@@ -54,7 +55,6 @@
         <br />
         <br />
       </p>
-
       <p class="creadora-tendencias">Explora las tendencias</p>
       <a href="../../tendecias" class="btn-tendencias">ver más</a>
     </div>
@@ -81,9 +81,6 @@
           <h5 class="titulo card-title">{{ producto.titulo }}</h5>
           <p class="precio card-text">{{ producto.precio | currency }}</p>
           <p class="material card-text">{{ producto.material }}</p>
-          <button (click)="onClick(producto)" type="button" class="btn-comprar">
-          Agregar
-        </button>
         </div>
       </div>
       }
@@ -95,7 +92,7 @@
     <img class="img-coleccion" src="coleccion-1.jpg" alt="img" />
     <section>
       <div class="contenedor-coleccion">
-        <p class="subtitulo-cole">Descúbre</p>
+        <p class="subtitulo-cole">Descubre</p>
         <p class="titulo-cole">Abstract.</p>
         <div class="texto-cole">
           <p>

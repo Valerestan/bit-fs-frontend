@@ -254,3 +254,120 @@
   font-weight: 200;
   font-style: normal;
 }
+
+@media screen and (max-width: 1024px) {
+  .titulo-portada{
+    line-height: 150px;
+    margin-left: 200px;
+  }
+  .creadora{
+    margin-left: 450px;
+  }
+  .contenedor ,.terminos, .contenedor-termino, .politica, .contenedor-politica{
+    margin-left: 150px;
+  }
+  .preguntas{
+    margin-left: 0px;
+  }
+  .preguntasuno, .preguntascuadro, .preguntascuadrotres{
+    margin-left: 230px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .img-nosotros-portada{
+    height: 900px;
+  }
+  .titulo-portada{
+    line-height: 150px;
+    margin-left: 60px;
+  }
+  .creadora{
+    margin-left: 300px;
+  }
+  .contenedor ,.terminos, .contenedor-termino, .politica, .contenedor-politica{
+    margin-left: 30px;
+  }
+  .preguntas{
+    margin-left: 0px;
+  }
+  .preguntasuno, .preguntascuadro, .preguntascuadrotres{
+    margin-left: 90px;
+  }
+
+  @media screen and (max-width: 376px) {
+  .img-nosotros-portada{
+    height: 800px;
+  }
+  .titulo-portada{
+    line-height: 60px;
+    font-size: 55px;
+    margin-left: 80px;
+  }
+  .creadora{
+    margin-left: 130px;
+    margin-top: 390px;
+  }
+  .contenedor ,.terminos, .contenedor-termino, .politica, .contenedor-politica{
+    margin-left: 30px;
+    width: 300px;
+  }
+  .politica{
+    margin-top: 1100px;
+  }
+  .preguntas{
+    margin-left: 0px;
+    margin-top: 1000px;
+  }
+  .preguntasuno, .preguntascuadro, .preguntascuadrotres{
+    margin-left: 20px;
+    height: 320px;
+    width: 300px;
+  }
+  
+  .unonumero{
+    margin-left: 120px;
+  }
+  .preguntauno{
+    margin-top: -30px;
+    margin-left: 0px;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .respuestauno{
+    margin-left: 30px;
+    width: 240px;
+  }
+
+
+   .dosnumero{
+    margin-left: 120px;
+  }
+  .preguntados{
+    margin-top: -30px;
+    margin-left: 0px;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .respuestados{
+    margin-left: 30px;
+    width: 240px;
+  }
+    .tresnumero{
+    margin-left: 120px;
+  }
+  .preguntatres{
+    margin-top: -30px;
+    margin-left: 0px;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .respuestatres{
+    margin-left: 30px;
+    width: 240px;
+  }
+}
+
+}

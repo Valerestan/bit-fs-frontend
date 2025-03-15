@@ -51,7 +51,6 @@ footer {
   transition: transform 0.3s ease;
 }
 
-
 .linkedin {
   margin-left: 10px;
 }
@@ -80,21 +79,21 @@ footer {
   margin-left: 640px;
 }
 .link-1:hover {
-color: black;
+  color: black;
   transition: transform 0.3s ease;
 }
 .link-2 {
   margin-left: 10px;
 }
 .link-2:hover {
-color: black;
+  color: black;
   transition: transform 0.3s ease;
 }
 .link-3 {
   margin-left: 10px;
 }
 .link-3:hover {
-color: black;
+  color: black;
   transition: transform 0.3s ease;
 }
 
@@ -120,21 +119,21 @@ color: black;
   margin-left: 515px;
 }
 .links-1:hover {
-color: black;
+  color: black;
   transition: transform 0.3s ease;
 }
 .links-2 {
   margin-left: 10px;
 }
 .links-2:hover {
-color: black;
+  color: black;
   transition: transform 0.3s ease;
 }
 .links-3 {
   margin-left: 10px;
 }
 .links-3:hover {
-color: black;
+  color: black;
   transition: transform 0.3s ease;
 }
 .derechos {
@@ -148,3 +147,62 @@ color: black;
   font-weight: 400;
   font-style: normal;
 }
+
+
+
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1024px) {
+  .logo {
+    margin-left: 440px;
+  }
+  .instagram {
+    margin-left: 458px;
+  }
+  .link-1 {
+    margin-left: 390px;
+  }
+  .links-1 {
+    margin-left: 290px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    margin-left: 320px;
+  }
+  .instagram {
+    margin-left: 330px;
+  }
+  .link-1 {
+    margin-left: 260px;
+  }
+  .links-1 {
+    margin-left: 140px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  footer{
+    height: 500px;
+  }
+  .logo {
+    margin-left:120px;
+  }
+  .instagram {
+    margin-left: 130px;
+  }
+  .link-1 {
+    margin-left: 60px;
+  }
+  .links-1 {
+    margin-left: 13px;
+  }
+  .links-3 {
+    margin-left: 110px;
+  }
+}
+
+
+
+
+
